@@ -1,5 +1,4 @@
 target/
-.mvn/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -30,4 +29,3 @@ build/
 
 ### VS Code ###
 .vscode/
-/.mvn/
