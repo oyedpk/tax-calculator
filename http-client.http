@@ -23,3 +23,20 @@ Content-Type: application/json
     "2013-03-28 14:07:27"
      ]
 }
+
+### REFRESH RULES
+POST http://localhost:8080/v1/refresh-rules
+
+
+### HEALTH CHECK
+GET http://localhost:8080/v1/ping
+
+
+### GET RULES CONFIGURED
+GET http://localhost:8080/v1/toll-free-date
+
+### GET RULES CONFIGURED
+GET http://localhost:8080/v1/toll-free-vehicle
+
+### GET RULES CONFIGURED
+GET http://localhost:8080/v1/fee-interval
