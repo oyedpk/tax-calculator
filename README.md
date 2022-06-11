@@ -1,6 +1,6 @@
 # Getting Started
 
-To build and run all unit and integration tests run
+To build and run all unit and integration tests run (JAVA 17+)
 ```
 ./mvnw clean verify
 ```
@@ -10,4 +10,4 @@ To build and run all unit and integration tests run
 It is possible to test your feature. In order to do this follow the steps bellow:
 
 1. Open on intellij a `TaxCalculationApplication` execution run
-2. Use the http-client.http file to test
+2. Use the http-client.http file to test and check use cases
